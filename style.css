@@ -1,0 +1,179 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    margin: 44px 0 147px 65px;
+    
+}
+
+section {
+    display: inline-block;
+   
+
+}
+
+div {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+
+a {
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 24px;
+    color: #989D9C;
+    width: 79px;
+    cursor: pointer;
+    margin-left: 23px;
+  
+
+}
+
+.BOTAO-ROXO {
+    background: #665AE1;
+    border-radius: 20.5px;
+    Width: 130px;
+    Height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+img {
+    width: 468px;
+    height: 400px;
+    margin-left: 125px;
+}
+   
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    
+}
+
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    height: 87px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+.BOTAO-VERDE {
+    background: #ADFF00;
+    border-radius: 30px;
+    Width: 239px;
+    Height: 64px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.BOTAO-ROXO:hover {
+    opacity: .7;
+}
+
+.BOTAO-ROXO:active {
+    opacity: .4;
+}
+
+
+a:nth-child(4){
+    opacity: .4;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+a:active {
+    opacity: .4;
+}
+
+.BOTAO-VERDE:hover {
+    opacity: .7;
+}
+
+.BOTAO-VERDE:active {
+    opacity: .4;
+}
+
+
+@media screen and (max-width:800px){
+
+    header {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    img {
+        width: 354px;
+        height: 317px;
+        margin: 149px 22px 0 20px;
+    }
+
+    
+    
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        margin-top: 40px;
+        
+    }
+
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        margin: 7px 0 17px 0;
+       
+    }
+
+
+    p {
+        display: none;
+        
+    }
+
+}
